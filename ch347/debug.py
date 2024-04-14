@@ -20,7 +20,7 @@ print(dev.get_device_info())
 print(dev.get_version())
 
 """Test if USB is connected"""
-dev.set_device_notify('HID\\VID_1A86&PID_55DC&MI_01#7&5D28A11&0&0000#')
+# dev.set_device_notify('HID\\VID_1A86&PID_55DC&MI_01#7&5D28A11&0&0000#')
 
 spiCon = SPIConfig()
 spiCon.Mode = 0
