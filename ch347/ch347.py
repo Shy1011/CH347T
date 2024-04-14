@@ -510,7 +510,7 @@ class CH347:
 
     def CH347GPIO_Get(self) :
         """
-        配置为IIC_SPI的时候并不支持GPIO输出
+        配置为IIC_SPI的时候并不支持GPIO输出 所以这个函数没什么用
         """
         # 定义函数原型
         # 假设ULONG, UCHAR在C中的定义分别对应ctypes中的c_ulong, c_ubyte
